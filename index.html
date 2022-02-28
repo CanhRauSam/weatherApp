@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Tags</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body class="">
+    <div class="overlay"></div>
+    <div class="weather">
+        <input type="text" class="search">
+        <div class="content">
+            <h1 class="capital">
+                <span class="city"></span>,
+                <span class="country"></span>
+            </h1>
+            <p class="time"></p>
+            <div class="temperature">
+                <p><span class="value"></span> <sup>o</sup>C</p>
+            </div>
+            <p class="short-desc"></p>
+            <ul class="more-desc-list">
+                <li class="more-item visibility">
+                    <ion-icon name="eye-outline"></ion-icon>
+                    <p><span></span> (m)</p>
+                </li>
+                <li class="more-item wind">
+                    <ion-icon name="leaf-outline"></ion-icon>
+                    <p><span></span> (m/s)</p>
+                </li>
+                <li class="more-item sun">
+                    <ion-icon name="water-outline"></ion-icon>
+                    <p><span></span> (%)</p>
+
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <script src="./assets/main.js"></script>
+</body>
+
+</html>
